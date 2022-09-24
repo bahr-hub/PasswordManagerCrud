@@ -14,7 +14,7 @@ namespace PasswordManagerCrud.Shared.Models
         public string PhoneNumber { get; set; }
 
         public string PasswordHash { get; set; }
-        public string PasswordSalt { get; set; }
+        
 
         public DateTime CreationDate { get; set; }
         public long CreationDateStamp { get; set; }
