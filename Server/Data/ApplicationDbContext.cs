@@ -32,6 +32,10 @@ namespace PasswordManagerCrud.Server.Data
                 .IsRequired()
                 .HasMaxLength(100).HasColumnName("PhoneNumber");
 
+                entity.Property(x => x.Password)
+                .IsRequired()
+                .HasMaxLength(100)
+                .HasColumnName("Password");
 
                 entity.Property(x => x.PasswordHash)
                 .IsRequired()
